@@ -11,11 +11,11 @@ SCALE = 20
 WORDS = ["love you", "Love You", "LOVE YOU"]
 CENTER_TEXT = " Love You "
 COLORS = [
-    (70, 130, 180),
-    (30, 144, 255),  
-    (0, 191, 255),  
-    (100, 149, 237), 
-    (65, 105, 225)
+    (255, 182, 193),
+    (255, 105, 180),
+    (255, 20, 147),
+    (219, 112, 147),
+    (199, 21, 133)
     ]
 
 
@@ -109,7 +109,7 @@ def main():
     pygame.init()
 
     pygame.mixer.init()
-    pygame.mixer.music.load("love_you.mp3")
+    pygame.mixer.music.load("love_you.ogg")
     pygame.mixer.music.play()
 
     screen = pygame.display.set_mode((WIDTH, HEIGHT), pygame.DOUBLEBUF)
